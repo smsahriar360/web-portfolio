@@ -1,10 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -16,4 +24,36 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+
+.top-baner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 20px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background: rgb(109,70,218);
+    background: linear-gradient(90deg, rgba(109,70,218,1) 0%, rgba(255,72,145,1) 50%);
+}
+.dream-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    padding-bottom: 20px;
+    height: 500px;
+    background-color: green;
+}
+.experience-section{
+    width: 100%;
+    height: 500px;
+    background-color: tomato;
 }
